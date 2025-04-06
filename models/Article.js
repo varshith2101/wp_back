@@ -14,4 +14,4 @@ const ArticleSchema = new mongoose.Schema({
   category: { type: String, required: true }
 }, { strict: false });
 
-module.exports = mongoose.model("Article", ArticleSchema, "Articles_of_TheMitPost");
+module.exports = mongoose.model("Article", ArticleSchema, "Events_of_MIT");
