@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: thepost-backend
+    runtime: node
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DATABASE_URL
+        value: mongodb+srv://Admin:Admin@cluster0.14eew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
